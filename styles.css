@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-image: url('background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#portrait-circle {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+} 
+
+#portrait-img {
+    border-radius: 50%;
+}
+
+#navbar {
+    margin-top: 20px;
+}
